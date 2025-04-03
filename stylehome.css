@@ -1,97 +1,112 @@
-/* Reset some default styles */
+/* Reset Default Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
+/* Body Styling */
 body {
-    background: url('1680x756_0 (1)_0.jpg') no-repeat center center/cover;
+    background: url('https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
     color: white;
     text-align: center;
 }
 
 /* Header Styling */
 header {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
 }
 
 h1 {
+    font-size: 40px;
     color: #FFD700;
-    font-size: 36px;
-    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* Search Bar */
 .search-container {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #search-bar {
     padding: 10px;
-    width: 250px;
+    width: 280px;
+    border-radius: 25px;
     border: none;
-    border-radius: 5px;
+    outline: none;
+    text-align: center;
 }
 
 #search-btn {
-    padding: 10px;
+    padding: 10px 15px;
     border: none;
     background: #FFD700;
     color: black;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#search-btn:hover {
+    background: #FFA500;
 }
 
 /* Navigation Bar */
 nav {
     background: #222;
-    padding: 10px;
+    padding: 15px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
     color: #FFD700;
+    text-decoration: underline;
 }
 
 /* Main Content */
 main {
-    padding: 50px 20px;
+    padding: 60px 20px;
 }
 
 h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 34px;
     color: #FFD700;
+    margin-bottom: 15px;
 }
 
 h3 {
-    font-size: 22px;
-    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+    margin-top: 200px;
 }
 
 /* Footer */
 h4 {
-    margin-top: 50px;
+    margin-top: 500px;
     font-size: 16px;
-    color: #ccc;
+    color: #FFD700;
 }
